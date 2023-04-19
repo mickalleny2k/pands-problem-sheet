@@ -31,6 +31,22 @@ else if the number is divided 2 with remainder not equal to zero
 print odd number 
 Multiply by 3 and update the variable
 
+
+Week 5 Task
+Research
+https://www.w3schools.com/python/python_dictionaries.asp
+https://www.w3schools.com/python/python_datetime.asp
+
+Comments
+import datetime module
+get current datetime
+get day of week as an integer
+create a dictionary with 2 entries : weekday and weekend
+if it's a weekday
+    print Sorry. Unfortunately it's a weekday.
+but if it's the weekend
+    print Woohoo. It's the weekend. Party time.
+
 Week Task 6 : Calculate the square root of a number using Newtons method 
  
 Research : https://stackoverflow.com/questions/70793490/how-do-i-calculate-square-root-in-python
