@@ -10,6 +10,7 @@ Print the sum in dollars and cents
 Research for Week 2 : https://realpython.com/python-sum-function/
 
 Task for Week 3 accounts.py
+Research : https://www.w3schools.com/python/python_lists.asp
 
 import math module
 User inputs a 10 digit account number via the command line  
