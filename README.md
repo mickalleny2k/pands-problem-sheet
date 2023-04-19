@@ -9,6 +9,15 @@ Prompt the user and read in two money amounts (in cent)
 Print the sum in dollars and cents
 Research for Week 2 : https://realpython.com/python-sum-function/
 
+Task for Week 3 accounts.py
+
+import math module
+User inputs a 10 digit account number via the command line  
+create a variable to measure the length of the number
+print the answer to the command line
+print X's and the last 4 digits
+
+
 Week Task 6 : Calculate the square root of a number using Newtons method
 
 Research : https://stackoverflow.com/questions/70793490/how-do-i-calculate-square-root-in-python
