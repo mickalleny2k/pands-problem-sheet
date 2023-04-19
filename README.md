@@ -19,20 +19,20 @@ print the answer to the command line
 print X's and the last 4 digits
 
 #Week 4 Assignment
+Research : https://www.w3schools.com/python/python_while_loops.asp
 
-#import the maths module
-# user inputs a number. Number variable created.
-#create a while loop
-# loop keeps going while the number is greater than 1
-#if the number is divided 2 with remainder equal to zero
-#print even number
-# Divide by 2 and update the variable 
-# else if the number is divided 2 with remainder not equal to zero
-#print odd number
-# Multiply by 3 and update the variable
+user inputs a number. Number variable created.
+create a while loop
+loop keeps going while the number is greater than 1
+if the number is divided 2 with remainder equal to zero
+print even number
+Divide by 2 and update the variable 
+else if the number is divided 2 with remainder not equal to zero
+print odd number 
+Multiply by 3 and update the variable
 
-Week Task 6 : Calculate the square root of a number using Newtons method
-
+Week Task 6 : Calculate the square root of a number using Newtons method 
+ 
 Research : https://stackoverflow.com/questions/70793490/how-do-i-calculate-square-root-in-python
 
 user inputs a number
