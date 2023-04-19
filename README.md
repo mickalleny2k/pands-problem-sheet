@@ -10,6 +10,9 @@ Print the sum in dollars and cents
 Research for Week 2 : https://realpython.com/python-sum-function/
 
 Week Task 6 : Calculate the square root of a number using Newtons method
+
+Research : https://stackoverflow.com/questions/70793490/how-do-i-calculate-square-root-in-python
+
 user inputs a number
 create a function using def 
 Set x equal to n at the start
