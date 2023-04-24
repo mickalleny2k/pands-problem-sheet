@@ -1,13 +1,21 @@
 # pands-problem-sheet
 Problem Sheet for Programming and Scripting module
 
-Week 1 Assignment
+#Week 1 Assignment
 Print Hello World
 
-Week 2 Assignment
-Prompt the user and read in two money amounts (in cent)
-Print the sum in dollars and cents
-Research for Week 2 : https://realpython.com/python-sum-function/
+#Week 2 Assignment
+-create two variables for amount1 and amount2
+-create another variable total for the sum
+-create another variable for 100
+-create another variable answer
+-Divide the total by divide  to covert from cents to cents and dollars
+-print the answer to the command line
+-You can use "f-strings" (f for "formatted string literals"), the short format style from Python v3.6 on
+
+Research for Week 2 : 
+https://realpython.com/python-sum-function/
+https://stackoverflow.com/questions/2389846/python-decimals-format
 
 Task for Week 3 accounts.py
 Research : https://www.w3schools.com/python/python_lists.asp
@@ -78,19 +86,17 @@ When you reach the end of the file, print the answer.
 
 WEEK 8 TASK : Plotting a function and histogram
 
-Research
+Research :
+https://stackoverflow.com/questions/25451294/best-way-to-display-seaborn-matplotlib-plots-with-a-dark-ipython-notebook-profil
 https://www.geeksforgeeks.org/how-to-plot-normal-distribution-over-histogram-in-python/
+https://matplotlib.org/stable/gallery/text_labels_and_annotations/text_fontdict.html
 
-import numpy and matplotlib modules
- 
-Generating random data with  1000 values,normal distribution, mean of 5 and standard deviation of 2 
-  
-Plotting the histogram.
-
-show the plot  
-
-x and y axis points
-
-plotting the function
-
-show the plot
+My understanding of the code:
+- import numpy and matplotlib modules
+- Generating random data with  1000 values,normal distribution, mean of 5 and standard deviation of 2   
+- Plotting the histogram.
+- show the plot  
+- x and y axis points for the function plot
+- plotting the function
+- save the plot to a png
+- show the plot
