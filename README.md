@@ -5,13 +5,11 @@ Week 1 Assignment
 Print Hello World
 
 Week 2 Assignment
+- import re module
 - create two variables for amount1 and amount2
-- create another variable total for the sum
-- create another variable for 100
-- create another variable answer
-- Divide the total by divide  to covert from cents to cents and dollars
-- print the answer to the command line
-- You can use "f-strings" (f for "formatted string literals"), the short format style from Python v3.6 on
+- Use sub function in re module
+- change cents to dollars
+- format the answer and print
 
 Research for Week 2 : 
 https://realpython.com/python-sum-function/
