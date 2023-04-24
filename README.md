@@ -1,17 +1,17 @@
 # pands-problem-sheet
 Problem Sheet for Programming and Scripting module
 
-#Week 1 Assignment
+Week 1 Assignment
 Print Hello World
 
-#Week 2 Assignment
--create two variables for amount1 and amount2
--create another variable total for the sum
--create another variable for 100
--create another variable answer
--Divide the total by divide  to covert from cents to cents and dollars
--print the answer to the command line
--You can use "f-strings" (f for "formatted string literals"), the short format style from Python v3.6 on
+Week 2 Assignment
+- create two variables for amount1 and amount2
+- create another variable total for the sum
+- create another variable for 100
+- create another variable answer
+- Divide the total by divide  to covert from cents to cents and dollars
+- print the answer to the command line
+- You can use "f-strings" (f for "formatted string literals"), the short format style from Python v3.6 on
 
 Research for Week 2 : 
 https://realpython.com/python-sum-function/
