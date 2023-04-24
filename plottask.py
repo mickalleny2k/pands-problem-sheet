@@ -22,14 +22,17 @@ font_for_plot = {'family': 'calibri',
 data = np.random.normal(5, 2, 1000)
   
 # Plotting the histogram.
-plt.style.use("seaborn-darkgrid")
+#plt.style.use("seaborn-darkgrid")
+plt.style.use("dark_background")
+#https://stackoverflow.com/questions/25451294/best-way-to-display-seaborn-matplotlib-plots-with-a-dark-ipython-notebook-profil
 plt.hist(data, bins=25, density=True, alpha=0.6, color='b')
-
+#https://matplotlib.org/stable/gallery/text_labels_and_annotations/text_fontdict.html
 plt.title("Normal Distribution", color='blue', fontdict=font_for_histogram)
 plt.xlabel("Mean 5, St Dev 2", color='blue', fontdict=font_for_histogram)
 plt.ylabel("1000 Random values", color='blue', fontdict=font_for_histogram)
-plt.legend()
 
+plt.legend()
+plt.savefig('histogram.png')
 #show the plot  
 plt.show()
 
@@ -46,4 +49,5 @@ plt.ylabel("x-cubed", color='red', fontdict=font_for_plot)
 plt.legend()
 
 #show the plot
+plt.savefig('function_plot.png')
 plt.show()
