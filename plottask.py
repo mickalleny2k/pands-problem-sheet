@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 font_for_histogram = {'family': 'cambria',
         'color':  'darkblue',
         'weight': 'normal',
-        'size': 14,
+        'size': 18,
         }
 
 font_for_plot = {'family': 'calibri',
@@ -42,10 +42,10 @@ ypoints = xpoints**3
 
 #plotting the function
 plt.style.use("seaborn-darkgrid")
-plt.plot(xpoints, ypoints, 'r', label = 'y = x cubed')
-plt.title("Function", color='red', fontdict=font_for_plot)
-plt.xlabel("0 - 10", color='red', fontdict=font_for_plot)
-plt.ylabel("x-cubed", color='red', fontdict=font_for_plot)
+plt.plot(xpoints, ypoints, 'r', label = 'h(x)=x3')
+plt.title("Function h(x)=x3", color='red', fontdict=font_for_plot)
+plt.xlabel("x = 0 - 10", color='red', fontdict=font_for_plot)
+plt.ylabel("y = x-cubed", color='red', fontdict=font_for_plot)
 plt.legend()
 
 #show the plot
