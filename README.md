@@ -6,7 +6,7 @@ Problem Sheet for Programming and Scripting module
 Print Hello World
 
 ## Installation
-Run the python program bank.py in Visual Studio Code 
+Run the python program in Visual Studio Code 
 
 # WEEK 2 
 ## Purpose of Task
@@ -66,12 +66,15 @@ Run the python program in Visual Studio Code
 ## Research : 
 https://www.w3schools.com/python/python_while_loops.asp
 
-Week 5 Task
-Research
-https://www.w3schools.com/python/python_dictionaries.asp
-https://www.w3schools.com/python/python_datetime.asp
+# Week 5 Task
+## Purpose of Task
+Write a program that outputs whether or not today is a weekday. (The program should be called weekday.py)
+(You will need to search the web to find how you work out what day it is)
 
-Explanation of the code step-by-step:
+## Installation
+Run the python program bank.py in Visual Studio Code
+
+## Explanation of the code step-by-step:
 - import datetime module
 - get current datetime
 - get day of week as an integer
@@ -80,6 +83,10 @@ Explanation of the code step-by-step:
     print Sorry. Unfortunately it's a weekday.
 - but if it's the weekend
     print Woohoo. It's the weekend. Party time.
+
+## Research
+https://www.w3schools.com/python/python_dictionaries.asp
+https://www.w3schools.com/python/python_datetime.asp
 
 Week Task 6 : Calculate the square root of a number using Newtons method 
  
