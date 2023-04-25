@@ -88,11 +88,14 @@ Run the python program bank.py in Visual Studio Code
 https://www.w3schools.com/python/python_dictionaries.asp
 https://www.w3schools.com/python/python_datetime.asp
 
-Week Task 6 : Calculate the square root of a number using Newtons method 
- 
-Research : https://stackoverflow.com/questions/70793490/how-do-i-calculate-square-root-in-python
+# Week Task 6 
+## Purpose of Task
+Calculate the square root of a number using Newtons method
 
-Explanation of the code step-by-step:
+## Installation
+Run the python program in Visual Studio Code
+
+## Explanation of the code step-by-step:
 - user inputs a number
 - create a function using def 
 - Set x equal to n at the start
@@ -103,14 +106,21 @@ Explanation of the code step-by-step:
 - Update root and perform another iteration if answer is greater than 1          
 - return the square root and print the answer
 
+##Research : 
+https://stackoverflow.com/questions/70793490/how-do-i-calculate-square-root-in-python
 
-Week 7 : This program reads in a text file and outputs the number of e's it contains
+# Week 7 : 
+## Purpose of Task
+This program reads in a text file and outputs the number of e's it contains
 
-Research
+## Installation
+Run the python program in Visual Studio Code
+
+## Research
 I got the for loop from this link :
 #https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python
 
-ASSUMPTIONS
+## ASSUMPTIONS
 - I assume you want Uppercase E's and lowercase e's
 - I assume the input file is in the same directory as es.py. If not, you must input the full path.
 - I assume the input file contains the Roman alphabet. 
@@ -118,7 +128,7 @@ ASSUMPTIONS
 - It would work for the Vietnamese alphabet because Vietnamese uses the roman alphabet including the letter e and E.
 - I assume the file isn't just full of numbers.  
 
-Explanation of the code step-by-step:
+## Explanation of the code step-by-step:
 - Import the fileinput and re libraries
 - Initialise the counter variable.Set it to zero
 - Use a for loop to count the number of e's in each line of the text file
@@ -126,14 +136,14 @@ Explanation of the code step-by-step:
 - Update the variable after each iteration of the loop
 - When you reach the end of the file, print the answer.
 
-WEEK 8 TASK : Plotting a function and histogram
+# WEEK 8 TASK : 
+## Purpose of Task
+Plotting a function and histogram
 
-Research :
-https://stackoverflow.com/questions/25451294/best-way-to-display-seaborn-matplotlib-plots-with-a-dark-ipython-notebook-profil
-https://www.geeksforgeeks.org/how-to-plot-normal-distribution-over-histogram-in-python/
-https://matplotlib.org/stable/gallery/text_labels_and_annotations/text_fontdict.html
+## Installation
+Run the python program in Visual Studio Code
 
-My understanding of the code:
+## Explanation of the code step-by-step:
 - import numpy and matplotlib modules
 - Generating random data with  1000 values,normal distribution, mean of 5 and standard deviation of 2   
 - Plotting the histogram.
@@ -142,3 +152,8 @@ My understanding of the code:
 - plotting the function
 - save the plot to a png
 - show the plot
+
+## Research :
+https://stackoverflow.com/questions/25451294/best-way-to-display-seaborn-matplotlib-plots-with-a-dark-ipython-notebook-profil
+https://www.geeksforgeeks.org/how-to-plot-normal-distribution-over-histogram-in-python/
+https://matplotlib.org/stable/gallery/text_labels_and_annotations/text_fontdict.html
