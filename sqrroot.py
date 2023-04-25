@@ -26,7 +26,12 @@ def sqrt(n) :
 
 if int(n) <= 0:
     #print (" Please enter a positive integer")
-    n = input("LISTEN TO ME -))) I SAID please input a positive integer : ")
+    n = input("LISTEN TO ME BUDDY-) I said please input a positive integer : ")
+    if int(n) <= 0:
+        print("Third times a charm")
+        n = input("Pretty please input a positive integer for goodness sake : ")
+        if int(n) <= 0:
+            print("No more chances. I give up")
 
 #print the square root. Format the answer. One decimal point.
 print(f"The square root of {n} is approx. {sqrt(float(n)):.1f}")
