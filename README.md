@@ -6,7 +6,7 @@ Problem Sheet for Programming and Scripting module
 Print Hello World
 
 ## Installation
-Run the python program in Visual Studio
+Run the python program bank.py in Visual Studio Code 
 
 # WEEK 2 
 ## Purpose of Task
@@ -26,20 +26,33 @@ Prompt the user and read in two money amounts (in cent)
 https://realpython.com/python-sum-function/
 https://stackoverflow.com/questions/2389846/python-decimals-format
 
-Task for Week 3 accounts.py
-Research : https://www.w3schools.com/python/python_lists.asp
+# Week 3
+## Purpose of Task
+Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
 
-Explanation of the code step-by-step:
+## Installation
+Run the python program accounts.py in Visual Studio or another similar application which supports Python
+
+## Explanation of the code step-by-step:
 - import math module
 - User inputs a 10 digit account number via the command line  
 - create a variable to measure the length of the number
 - print the answer to the command line
 - print X's and the last 4 digits
 
-#Week 4 Assignment
-Research : https://www.w3schools.com/python/python_while_loops.asp
+## Research : 
+https://www.w3schools.com/python/python_lists.asp
 
-Explanation of the code step-by-step:
+# Week 4 Assignment
+## Purpose of Task
+Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
+At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
+Have the program end if the current value is one.
+
+## Installation
+Run the python program in Visual Studio Code
+
+## Explanation of the code step-by-step:
 - user inputs a number. Number variable created.
 - create a while loop
 - loop keeps going while the number is greater than 1
@@ -49,7 +62,9 @@ Explanation of the code step-by-step:
 - else if the number is divided 2 with remainder not equal to zero
 - print odd number 
 - Multiply by 3 and update the variable
-
+- 
+## Research : 
+https://www.w3schools.com/python/python_while_loops.asp
 
 Week 5 Task
 Research
