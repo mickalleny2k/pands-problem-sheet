@@ -4,11 +4,6 @@
 
 # user inputs a number
 n = input("Please input a positive integer : ")
-if int(n) <= 0:
-    #print (" Please enter a positive integer")
-    n = input("LISTEN TO ME -))) I SAID please input a positive integer : ")
-elif int(n) > 0:
-    sqrt(n)
 
 # write a function that takes in a number and returns a value 
 def sqrt(n) :
@@ -29,8 +24,13 @@ def sqrt(n) :
         x = root
     return float(root)
 
+if int(n) <= 0:
+    #print (" Please enter a positive integer")
+    n = input("LISTEN TO ME -))) I SAID please input a positive integer : ")
+
 #print the square root. Format the answer. One decimal point.
 print(f"The square root of {n} is approx. {sqrt(float(n)):.1f}")
 
+    
 
  
