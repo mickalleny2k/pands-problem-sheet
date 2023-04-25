@@ -1,17 +1,28 @@
 # pands-problem-sheet
 Problem Sheet for Programming and Scripting module
 
-Week 1 Assignment
+# WEEK 1 
+## Purpose of Task
 Print Hello World
 
-Week 2 Assignment
+## Installation
+Run the python program in Visual Studio
+
+# WEEK 2 
+## Purpose of Task
+The program should:
+Prompt the user and read in two money amounts (in cent)
+- Add the two amounts
+- Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
+
+## Explanation of the code step-by-step:
 - import re module
 - create two variables for amount1 and amount2
 - Use sub function in re module
 - change cents to dollars
 - format the answer and print
 
-Research for Week 2 : 
+## Research for Week 2 : 
 https://realpython.com/python-sum-function/
 https://stackoverflow.com/questions/2389846/python-decimals-format
 
